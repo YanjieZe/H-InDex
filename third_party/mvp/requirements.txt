@@ -1,0 +1,9 @@
+gym
+hydra-core>=1.1
+iopath
+omegaconf
+setuptools
+tensorboard
+timm
+termcolor
+opencv-python
