@@ -5,7 +5,7 @@ Official PyTorch Implementation of **H-InDex** from [H-InDex: Visual Reinforceme
 [Zhecheng Yuan](https://openreview.net/profile?id=~Zhecheng_Yuan1), [Jiashun Wang](https://jiashunwang.github.io/), [Xiaolong Wang](https://xiaolonw.github.io/), [Huazhe Xu](http://hxu.rocks/)
 
 <p align="center">
-  <br><img src='teaser.png' width="600"/><br>
+  <br><img src='teaser.png' width="1000"/><br>
 </p>
 
 
