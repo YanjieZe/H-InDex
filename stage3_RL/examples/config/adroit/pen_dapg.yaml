@@ -55,7 +55,7 @@ output: debug
 
 
 # test time adaptation
-test_time_momentum: 0.01
+test_time_momentum: 0.0
 use_encoder_adaptation: 0
 adaptation_batch_size: 32
 adaptation_num_iter: 1000

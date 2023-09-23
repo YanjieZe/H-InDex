@@ -1,5 +1,5 @@
 # demo:
-#   bash scripts/train_stage2.sh relocate-sugar_box
+#   bash scripts/train_stage2.sh hammer-v0
 
 # task name: 
 #   door-v0, hammer-v0, pen-v0

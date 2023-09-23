@@ -70,8 +70,8 @@ def main(args : DictConfig):
 
     if args.use_wandb:
         os.environ["WANDB_SILENT"] = "true"
-        wandb.init(project=str(args.wandb_project), group=str(args.wandb_group), name=str(args.wandb_name), config=args)
-        wandb.config.update(args)
+        wandb.init(project=str(args.wandb_project), group=str(args.wandb_group), name=str(args.wandb_name))
+        wandb.config.update(dict(args))
         print(colored(f"[wandb] init in project: {args.wandb_project}, group: {args.wandb_group}, name: {args.wandb_name}", "cyan"))
     
     assert 'algorithm' in job_data.keys()

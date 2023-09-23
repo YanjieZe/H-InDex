@@ -1,6 +1,7 @@
 AdroitImgDataset/
 experiment_logs/
 logs/
+.vscode/
 ckpts/
 __pycache__/
 .hydra/
@@ -10,7 +11,6 @@ archive/
 *.mp4
 vis_video/
 pytorch_checkpoints/
-demonstrations/
 
 # large files
 moco_v2_800ep_pretrain.pth.tar

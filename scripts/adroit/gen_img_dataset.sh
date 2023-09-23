@@ -1,9 +1,8 @@
 # bash scripts/adroit/gen_img_dataset.sh hammer
 # bash scripts/adroit/gen_img_dataset.sh door
 # bash scripts/adroit/gen_img_dataset.sh pen
-# bash scripts/adroit/gen_img_dataset.sh relocate
 
-# hammer, door, pen, relocate
+# hammer, door, pen
 gpu=0
 
 if [[ $1 == "hammer" ]]; then

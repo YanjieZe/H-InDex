@@ -266,7 +266,7 @@ def add_water_to_object(root, object_element: ET.Element, block_size, *, water_c
     spacing = str(ball_size + 0.002)
     offset = np.array(water_center_pos) + np.array(string_to_array(object_element.get("pos")))
     offset = array_to_string(offset)
-    count = array_to_string((np.array(block_size) / 2 / (ball_size + 0.002)).astype(np.int))
+    count = array_to_string((np.array(block_size) / 2 / (ball_size + 0.002)).astype(np.uint8))
     composite = ET.Element("composite", type="particle", spacing=spacing, offset=offset, count=count)
     geom = ET.Element("geom", size=array_to_string(ball_size), rgba=array_to_string(water_rgba))
     composite.append(geom)
