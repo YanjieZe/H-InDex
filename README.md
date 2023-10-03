@@ -26,7 +26,7 @@ Visual Reinforcement Learning with <a href="https://yanjieze.com/H-InDex/">H</a>
 <h3 align="center">
   <a href="https://yanjieze.com/H-InDex/"><strong>Project Page</strong></a>
   |
-  <a href=""><strong>arXiv</strong></a>
+  <a href="https://arxiv.org/abs/2310.01404"><strong>arXiv</strong></a>
   |
   <a href=""><strong>Twitter</strong></a>
 </h3>
