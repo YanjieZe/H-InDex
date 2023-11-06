@@ -80,7 +80,7 @@ Given a task name `task_name`, you could run the following pipeline.
 - **Stage 3: Reinforcement Learning.**
   - Train RL agents with the pre-trained representations. See `scripts/adroit/train.sh` or `scripts/dexmv/train.sh` for details. An example:
     ```bash
-    bash scripts/adroit/train.sh hammer-v0 hindex test 0 0
+    bash scripts/adroit/train.sh hammer hindex test 0 0
     ```
     Arguments are task name, representation name, experiment name, seed, and GPU id respectively.  
 
